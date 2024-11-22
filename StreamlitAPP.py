@@ -11,7 +11,7 @@ from src.mcqgenerator.MCQgenerator import generate_evaluate_chain
 
 
 #loading json file
-with open(r'C:\Users\Public\sumit\OneDrive\Desktop\mcqgen\Response.json' , 'r') as file:
+with open('Response.json' , 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating a title for app
