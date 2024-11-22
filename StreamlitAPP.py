@@ -7,7 +7,7 @@ from src.mcqgenerator.utils import read_file , get_table_data
 from src.mcqgenerator.logger import logging
 import streamlit as st
 from langchain.callbacks import get_openai_callback
-from src.mcqgenerator.MCQgenerator import generate_evaluate_chain
+from src.mcqgenerator.mcqgenerator import generate_evaluate_chain
 
 
 #loading json file
